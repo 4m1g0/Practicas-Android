@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NetActiv" >
+    <item android:id="@+id/action_settings"
+        android:title="Post"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_serv"
+        android:title="Serv"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu>

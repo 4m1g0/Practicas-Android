@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.udc.psi14.blanco_novoa.blanco_novoalab04" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ServiceActiv"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".LocalService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".RemoteService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="package.MyBroadcast1" />
+                <action android:name = "android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name = "android.intent.action.ACTION_POWER_CONNECTED " />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

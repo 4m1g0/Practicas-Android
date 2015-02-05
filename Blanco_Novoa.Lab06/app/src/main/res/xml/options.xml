@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="Storage">
+            <EditTextPreference
+                android:key="Filename"
+                android:title="@string/filename"
+                android:summary="myDataFile.txt"
+                android:defaultValue="myDataFile.txt" />
+            <ListPreference
+                android:key="storage_type"
+                android:title="Type"
+                android:summary="@string/internal"
+                android:dialogTitle="type of storage"
+                android:entries="@array/storage_type"
+                android:entryValues="@array/storage_type" />
+        </PreferenceCategory>
+
+</PreferenceScreen>

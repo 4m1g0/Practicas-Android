@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blanco_Novoa.Lab01</string>
+    <string name="action_settings">Settings</string>
+    <string name="but_kill_str">kill</string>
+    <string name="but_count_str">Count</string>
+    <string name="count_str">Count:</string>
+    <string name="title_activity_second">SecondActiv</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="butt_secondActiv_str">Seccond Activity</string>
+    <string name="but_secondActiv_str">Seccond Activity</string>
+    <string name="title_activity_param">ParamActiv</string>
+    <string name="but_ok_str">OK</string>
+    <string name="but_paramActiv_str">paramActiv</string>
+    <string name="but_recurs">recursivo</string>
+    <string name="title_activity_impicit">ImpicitActiv</string>
+    <string name="title_activity_web">WebActiv</string>
+
+</resources>

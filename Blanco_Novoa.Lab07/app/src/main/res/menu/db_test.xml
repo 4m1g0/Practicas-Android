@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dbTestActivity" >
+    <item android:id="@+id/menu_add"
+        android:title="add"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_update"
+        android:title="update"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/filtrar"
+        android:title="Filtrar"/>
+    <item
+        android:id="@+id/ordenar"
+        android:title="Ordenar"/>
+
+    <item
+        android:id="@+id/cpTest"
+        android:title="cpTest"
+        android:showAsAction="ifRoom"/>
+</menu>

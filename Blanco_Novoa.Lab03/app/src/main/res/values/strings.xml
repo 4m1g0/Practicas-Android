@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blanco_Novoa.Lab03</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_events">EventsActiv</string>
+    <string name="title_activity_crea_botones">Crea botones</string>
+    <string name="string_model">model</string>
+    <string name="but_clean_str">Clean</string>
+    <string name="but_add_str">Add</string>
+    <string-array name="cars">
+        <item>ninguno</item>
+        <item>ford</item>
+        <item>opel</item>
+    </string-array>
+    <string-array name="cars_ford">
+        <item>fiesta</item>
+        <item>mondeo</item>
+        <item>forito</item>
+    </string-array>
+    <string-array name="cars_opel">
+        <item>astra</item>
+        <item>rodeo</item>
+        <item>sarlinger</item>
+    </string-array>
+
+</resources>

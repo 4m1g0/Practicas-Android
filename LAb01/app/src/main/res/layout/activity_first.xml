@@ -1,0 +1,31 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_kill_str"
+        android:id="@+id/but_kill"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onKill" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_count_str"
+        android:id="@+id/but_count"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onCount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/count_str"
+        android:id="@+id/text_count"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NotifMenuActiv" >
+    <item android:id="@+id/icn"
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/txt"
+    android:title="Solo texto"/>
+    <item android:id="@+id/item2" android:title="show more"
+        android:icon="@drawable/ic_action_expand"
+        android:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/one" android:title="one"/>
+                <item android:id="@+id/two" android:title="two"/>
+            </group>
+            <group android:checkableBehavior="all">
+                <item android:id="@+id/apple" android:title="apple"/>
+                <item android:id="@+id/pear" android:title="pear"/>
+            </group>
+        </menu>
+    </item>
+</menu>

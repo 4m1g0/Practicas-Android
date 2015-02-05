@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blanco_Novoa.Lab05</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="but_notif_str">notificacion</string>
+    <string name="but_cancel_str">Cancel</string>
+    <string name="title_activity_notif">NotifActiv</string>
+    <string name="but_exit_str">Exit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

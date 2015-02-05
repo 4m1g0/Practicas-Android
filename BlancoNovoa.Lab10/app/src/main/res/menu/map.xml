@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.udc.psi14.blanco_novoa.blanconovoalab10.MapActiv" >
+    <item android:id="@+id/but_sat"
+        android:title="Sat"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+</menu>
